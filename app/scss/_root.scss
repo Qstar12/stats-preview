@@ -1,0 +1,26 @@
+:root {
+  $veryDarkBlue: hsl(233, 47%, 7%);
+  $darkDesaturatedBlue: hsl(244, 38%, 16%);
+  $softViolet: hsl(2277, 64%, 61%);
+  
+  // ## neutral
+  
+  $white: hsl(0, 0%, 100%);
+  $slightlyTransparentWhite: hsla(0, 0%, 100%, 0.75);
+  $slightlyTransparentwhite: hsla(0, 0%, 100%, 0.6);
+
+  --ff-primary: 'inter';
+  --ff-secondary: 'lexend deca';
+
+  --fs-base: 1rem;
+  --fs-sm: 0.75rem;
+  --fs-med:0.9375rem;
+  --fs-lg: 1.5rem;
+  --fs-xlg: 1.75rem;
+
+ @media (min-width: 50em){
+   --fs-xlg: 2.25rem
+ }
+}
+
+
