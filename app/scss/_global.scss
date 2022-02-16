@@ -27,7 +27,8 @@
 
 //ul & li rest
 ul,
-ol {
+ol,
+li {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -97,10 +98,10 @@ a {
 }
 
 ul {
+   
 
     @media (min-width: 77.5em){
-        display: flex;
-        flex-direction: row;
+        
         justify-content: space-between;  
         margin: auto;
     }  
@@ -111,6 +112,7 @@ li {
     font-family:var(--ff-primary);
     font-weight: 700;
     font-size: 24px; 
+    
      
 }
 

@@ -21,6 +21,13 @@
     }
 }
 
+.mobile_img {
+    display: none;
+}
+
+.desktop_img {
+    display: none;
+}
 
 .hero {
     width: 327px;
@@ -46,6 +53,7 @@
         right: 0;
         background-size: cover;
         mix-blend-mode: multiply;
+       
         
         @media (min-width: 77.5em) {
             background-image: none;   
@@ -153,4 +161,12 @@
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 1.5625em;
+    margin-bottom: 1.5em;
+   
+
+    @media (min-width: 77.5em){
+       margin-bottom: 0;
+    } 
+ 
 }
+
