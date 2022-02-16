@@ -99,6 +99,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: auto;
   }
 }
 
@@ -268,6 +269,16 @@ main .hero {
   }
 }
 
+.sub-heading {
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: Lexend Deca;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.5625em;
+}
+
 .root {
   --spacer: 1.5rem;
 }
@@ -280,12 +291,16 @@ main .hero {
   font-weight: 400;
   letter-spacing: 1px;
   height: 216px;
+  margin-bottom: 59px;
 }
 .lead :nth-last-of-type(3) {
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }
 .lead :nth-last-of-type(2) {
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
+}
+.lead :nth-last-of-type(1) {
+  margin-bottom: 1em;
 }
 .lead .sub-heading {
   line-height: 1.5625em;
@@ -302,6 +317,9 @@ main .hero {
     align-items: start;
     justify-content: space-between;
     line-height: 1.5625;
+  }
+  .lead :nth-last-of-type(1) {
+    margin-bottom: 0;
   }
 }
 
