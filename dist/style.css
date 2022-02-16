@@ -237,6 +237,9 @@ main .hero {
     margin-bottom: 4.665em;
   }
 }
+.snippet .value {
+  color: red;
+}
 
 @media (min-width: 77.5em) {
   .split {
