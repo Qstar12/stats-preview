@@ -28,8 +28,8 @@
   }
 }
 
-ul[class],
-ol[class] {
+ul,
+ol {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -56,10 +56,8 @@ html {
 }
 
 body {
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
-  padding: 0 auto;
+  margin: auto;
+  padding: auto;
   height: 100vh;
   font-family: var(--ff-primary);
   text-align: center;
@@ -94,6 +92,14 @@ a {
   text-decoration: none;
   color: #aa5cdb;
   font-weight: 700;
+}
+
+@media (min-width: 77.5em) {
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 li {
@@ -141,13 +147,15 @@ main .hero {
 .container {
   max-width: 20.4375rem;
   height: 48.75rem;
-  padding: 0 auto;
-  margin: 0 auto;
+  padding: auto;
+  margin: auto;
+  margin-top: 88px;
   background: #1b1938;
   border-radius: 8px;
 }
 @media (min-width: 77.5em) {
   .container {
+    margin: auto;
     max-width: 1110px;
     max-height: 446px;
     margin-right: auto;
@@ -260,7 +268,7 @@ main .hero {
   }
 }
 
-.lead {
+.root {
   --spacer: 1.5rem;
 }
 
@@ -284,8 +292,6 @@ main .hero {
 }
 @media (min-width: 77.5em) {
   .lead {
-    display: flex;
-    flex-direction: row;
     max-width: 350px;
     max-height: 56px;
     margin-right: 0;

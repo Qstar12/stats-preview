@@ -26,8 +26,8 @@
   
 
 //ul & li rest
-ul[class],
-ol[class] {
+ul,
+ol {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -56,10 +56,8 @@ html {
 }
 
 body {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: auto;
+    padding: auto;
     height: 100vh;
     font-family: var(--ff-primary);
     text-align: center;
@@ -96,6 +94,16 @@ a {
     text-decoration: none;
     color: hsl(277, 64%, 61%);
     font-weight: 700;
+}
+
+ul {
+
+    @media (min-width: 77.5em){
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;  
+    }  
+    
 }
 
 li {

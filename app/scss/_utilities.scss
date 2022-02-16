@@ -1,13 +1,14 @@
 .container {
     max-width: 20.4375rem;
     height: 48.75rem;
-    padding: 0 auto;
-    margin: 0 auto;  
+    padding: auto;
+    margin: auto; 
+    margin-top: 88px; 
     background:  rgb(27, 25, 56); 
     border-radius: 8px;   
    
     @media (min-width: 77.5em) {
-        
+        margin: auto;
         max-width: 1110px;
         max-height: 446px;
         margin-right: auto;
@@ -90,6 +91,7 @@
 .card__content {
     
     @media (min-width: 77.5em) {
+        
         padding: 0;   
         min-width: 19.375em;
         text-align: left;

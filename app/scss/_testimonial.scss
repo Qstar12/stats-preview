@@ -1,8 +1,9 @@
-.lead{
+.root{
     --spacer: 1.5rem;
 }
 
 .lead {
+    
     color: rgb(255, 255, 255);  
     text-transform: uppercase;
     font-size: 12px;
@@ -24,10 +25,8 @@
        
    }
 
-
+   
     @media (min-width: 77.5em) {
-        display: flex;
-        flex-direction: row;
         max-width: 350px;
         max-height: 56px;
         margin-right: 0;
